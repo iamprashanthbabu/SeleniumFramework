@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T13:35:33 CET" name="Default suite" finished-at="2023-03-20T13:35:55 CET" duration-ms="22217">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T13:35:33 CET" name="Default test" finished-at="2023-03-20T13:35:55 CET" duration-ms="22217">
+      <class name="sukhadaSF.tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sukhadaSF.tests.SubmitOrder@4b741d6d]" started-at="2023-03-20T13:35:33 CET" name="launchApplication" finished-at="2023-03-20T13:35:46 CET" duration-ms="12756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:sukhadaSF.tests.SubmitOrder@4b741d6d]" started-at="2023-03-20T13:35:46 CET" name="submitOrder" data-provider="getData" finished-at="2023-03-20T13:35:47 CET" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ZARA COAT 3, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:sukhadaSF.tests.SubmitOrder@4b741d6d]" started-at="2023-03-20T13:35:47 CET" name="launchApplication" finished-at="2023-03-20T13:35:55 CET" duration-ms="8127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:sukhadaSF.tests.SubmitOrder@4b741d6d]" started-at="2023-03-20T13:35:55 CET" name="submitOrder" data-provider="getData" finished-at="2023-03-20T13:35:55 CET" duration-ms="345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+      </class> <!-- sukhadaSF.tests.SubmitOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
